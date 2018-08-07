@@ -195,7 +195,7 @@ end
 
 %% Task 4: Generate report
 fid = fopen('report.txt', 'w');
-fprintf(fid, '%s\n%s\n', 'Owen Cruise', 'A14503003');
+fprintf(fid, '%s\n%s\n', 'Owen Cruise');
 fprintf(fid, '%s\n', ['sat_id max_speed min_speed orbital_period_before'...
     ' orbital_period_after']);
 
